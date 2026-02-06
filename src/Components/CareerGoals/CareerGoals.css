@@ -1,0 +1,37 @@
+.career-goals{
+    margin: 1rem ;
+}
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.goal-card {
+  background: var(--background-color);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--primary-color);
+  transition: 0.3s all ease-in-out;
+}
+
+.goal-card:hover {
+  border-color: var(--secondary-color);
+  transform: translateY(-5px);
+}
+
+.goal-icon {
+  font-size: 2.5rem;
+  margin-bottom: .3rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.goal-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.goal-card p {
+  color: var(--text-secondary);
+}

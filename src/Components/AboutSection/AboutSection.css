@@ -1,0 +1,58 @@
+.container{
+  margin-top: 2rem;
+}
+.heading {
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.bio-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.bio-text h2 {
+  line-height: 1;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.bio-text h2 span {
+  display: block;
+}
+
+.bio-text p {
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.bio-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stat-card {
+  background: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--secondary-color);
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.stat-label {
+  color: var(--background-color);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}

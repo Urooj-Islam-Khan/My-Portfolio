@@ -1,0 +1,39 @@
+.headline {
+  background: var(--primary-color);
+  width: 100%;
+}
+.moving-txt {
+  padding-block: 0.8rem;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.moving-txt::-webkit-scrollbar {
+  display: none;
+}
+
+.heading-container {
+  display: inline-block;
+  animation: movingtxt 12s linear infinite;
+}
+
+.heading-container h4 {
+  color: var(--background-color);
+  font-size: 2rem;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.heading-container .star {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  color: var(--background-color);
+}
+@keyframes movingtxt {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

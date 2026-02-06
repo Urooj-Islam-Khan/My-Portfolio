@@ -1,0 +1,46 @@
+.skill-section {
+  margin: 1rem 0 1.5rem;
+}
+.skill-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill-item {
+  background: var(--text-primary);
+  padding: 1rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--secondary-color);
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.skill-name {
+  color: var(--background-color);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.skill-level {
+  font-size: 0.85rem;
+  color: var(--primary-color);
+}
+
+.skill-bar {
+  background: var(--background-color);
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: var(--primary-color);
+  border-radius: 4px;
+  transition: width 1s ease;
+}

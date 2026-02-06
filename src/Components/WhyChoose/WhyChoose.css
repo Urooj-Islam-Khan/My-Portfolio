@@ -1,0 +1,39 @@
+.why-choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 1rem 0 2rem;
+}
+
+.why-card {
+  background: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 2px solid var(--primary-color);
+  text-align: center;
+  transition: 0.3s all ease-in-out;
+}
+
+.why-card:hover {
+  border-color: var(--text-primary);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(34, 99, 197, 0.2);
+}
+
+.why-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.why-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--background-color);
+}
+
+.why-card p {
+  color: var(--text-primary);
+  line-height: 1.7;
+  font-size: 0.9rem;
+}
